@@ -27,3 +27,12 @@ end
 def sum_array (array)
   array.inject(:+)
 end
+def add_s (array)
+  if array[1]
+    return
+  else
+    array.each do |i|
+      i[-1] = "s"
+    end
+  end
+end
