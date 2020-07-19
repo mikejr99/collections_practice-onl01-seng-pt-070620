@@ -29,7 +29,7 @@ def sum_array (array)
 end
 def add_s (array)
   array.collect do |i|
-    if array[1] = i
+    if array[1] == i
       i
     else
       i+"s"
